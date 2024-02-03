@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Workers</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1 style="text-align: center; font-size: 40px; color: darkred;">Real-Time Dashboard</h1>
+
+    <div class="useridpart">
+      <h2 class="useridheading">User Id :-</h2>
+      <input class="useridinputfield" type="number" max="10" min="0" id="userId" placeholder="Enter the user id" />
+    </div>
+
+    <button class="fetchbtn" onclick="fetchData()">Fetch Data</button>
+
+    <div class="resultdiv" id="result"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
